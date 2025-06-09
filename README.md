@@ -1,4 +1,4 @@
-# Video-Analyzer (YouTube)
+# Video-Analyzer (Using Gemini AI)
 
 This is a Video Analyzer project for YouTube videos using Gemini API (gemini-2.0-flash-lite)
 
