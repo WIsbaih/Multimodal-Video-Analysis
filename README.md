@@ -1,14 +1,17 @@
-# Next.js Template
+# Video-Analyzer (YouTube)
 
-This is a template repository showcasing Next.js Server Actions, React Server Components, and modern data fetching patterns. The project includes a Todo list implementation and examples of API integration with proper loading states and error handling.
+This is a Video Analyzer project for YouTube videos using Gemini API (gemini-2.0-flash-lite)
 
 ## Features
 
-- **Todo List**: Server-side data mutations using Next.js Server Actions
-- **Data Fetching Example**: Demonstrates React Suspense and loading states
-- **Modern UI**: Built with Shadcn UI components and Tailwind CSS
-- **Error Handling**: Proper error boundaries and user feedback
-- **Type Safety**: Full TypeScript support
+- Analyzes YouTube Videos by using Video URL, and provide summary for each video using Gemini
+  - For API docunmentation, Refer to: https://ai.google.dev/gemini-api/docs
+  - For API Keys, Refer to: https://aistudio.google.com/apikey
+
+## TODOs
+
+- Video transcripts
+- Chat with AI about the Video 
 
 ## Tech Stack
 
@@ -49,6 +52,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `app/page.tsx` - Main page with Todo list implementation
 - `app/example/page.tsx` - Data fetching example with loading states
 - `app/actions/*` - Server Actions for data mutations
+- `components/ui/*` - Shadcn UI components
 - `components/ui/*` - Shadcn UI components
 
 ## Learn More
