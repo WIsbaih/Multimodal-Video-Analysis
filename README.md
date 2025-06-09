@@ -15,6 +15,7 @@ This is a Video Analyzer project for YouTube videos using Gemini API (gemini-2.0
 
 ## Tech Stack
 
+- [GoogleGenerativeAI](https://www.npmjs.com/package/@google/generative-ai) - Node Package
 - [Next.js](https://nextjs.org) - React framework
 - [Shadcn UI](https://ui.shadcn.com/) - Component library
 - [Tailwind CSS](https://tailwindcss.com) - Styling
